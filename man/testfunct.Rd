@@ -7,6 +7,6 @@
 testfunct()
 }
 \description{
-This function is for testing how to load data
+Test Function
 }
 

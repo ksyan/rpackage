@@ -30,6 +30,7 @@ load("/users/kerry/documents/rcredda/rpackage/data/emp4.rda")
 
 #' Test Function
 #'
+#' @export
 #' This function is for testing how to load data
 testfunct = function(){
   employees$salary
