@@ -26,12 +26,11 @@ length_function=function(sales.balance=1500,Option="LowPayment",gamma=-1.8,alpha
 }
 length_function(sales.balance=1000,Option=c("LowPayment","LowCost"))
 
-load("/users/kerry/documents/rcredda/rpackage/data/emp4.rda")
-
 #' Test Function
 #'
 #' @export
 #' This function is for testing how to load data
 testfunct = function(){
+  load("/users/kerry/documents/rcredda/rpackage/data/emp4.rda")
   employees$salary
 }
