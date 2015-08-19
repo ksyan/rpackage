@@ -11,7 +11,7 @@
 #' @export
 #' @examples
 #' length_function(sales.balance=1500,Option=c("LowCost","LowPayment"))
-length_function=function(sales.balance=1500,Option="LowPayment",gamma=-1.8,alpha=0.0018,c=1.2,delta=136.8){
+length_function <- function(sales.balance=1500,Option="LowPayment",gamma=-1.8,alpha=0.0018,c=1.2,delta=136.8){
   #gamma=-1.8
   #alpha=0.0018
   #delta=136.8
@@ -30,7 +30,7 @@ length_function(sales.balance=1000,Option=c("LowPayment","LowCost"))
 #'
 #' @export
 #' This function is for testing how to load data
-testfunct = function(){
+testfunct <- function(){
   load("/users/kerry/documents/rcredda/rpackage/data/emp4.rda")
   employees$salary
 }
