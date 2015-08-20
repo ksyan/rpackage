@@ -26,7 +26,7 @@ length_function <- function(sales.balance=1500,Option="LowPayment",gamma=-1.8,al
 }
 length_function(sales.balance=1000,Option=c("LowPayment","LowCost"))
 
-load("/users/kerry/documents/rcredda/rpackage/data/emp4.rda")
+load("data/emp4.rda")
 
 #' Test Function
 #'
