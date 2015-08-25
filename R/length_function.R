@@ -35,3 +35,14 @@ load("data/emp4.rda")
 testfunct <- function(){
   employees$salary
 }
+
+s <- list(1,2,3,4,5)
+
+#' Test Function 2
+#'
+#' This function is for testing how to load data
+#' @param def.list, w.e.
+#' @export
+testfunct2 <- function(def.list = s){
+  return(def.list[[3]])
+}
