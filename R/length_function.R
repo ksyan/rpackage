@@ -26,8 +26,6 @@ length_function <- function(sales.balance=1500,Option="LowPayment",gamma=-1.8,al
 }
 length_function(sales.balance=1000,Option=c("LowPayment","LowCost"))
 
-load("data/emp4.rda")
-
 #' Test Function
 #'
 #' This function is for testing how to load data
